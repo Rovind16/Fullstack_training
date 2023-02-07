@@ -1,0 +1,199 @@
+.navbar{
+    background-color:black;
+    position: absolute;
+    width: 99%;
+    top: 0px;
+    height: 100px;
+  }
+  li a:hover{
+    background-color: brown;
+  }
+  .navbar li{
+    float:left;
+    list-style: none; 
+    margin: 13px 20px;
+}
+.navbar ul{
+    overflow: auto;
+}
+header{
+    margin-top: 0%;
+}
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color:white;
+    font-family: cursive;
+    border-radius: 8;
+}
+.search{
+    float: right;
+    color: white;
+    padding: 12px 75px;
+}
+.navbar input{
+    border: 2px solid black;
+    border-radius: 14px;
+    padding: 3px 17px;
+    width: 129px;
+}
+.description{
+    position: absolute;
+    top: 300px;
+    margin-left: 5%;
+    
+}
+.description h1{
+    font-family: fantasy;
+    font-size: 60px;
+}
+.description p{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}
+.rewards h1{
+    text-align: center;
+    font-family:monospace;
+    font-size: 40px;
+}
+.rcards{
+    display: flex;
+}
+.rcards h1{
+    text-decoration: underline;
+}
+.rcards h2{
+    text-align: center;
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: 15px;
+    font-family: cursive;
+}
+.card {
+    width: 290px;
+    height: 279px;
+    margin-left: 10%;
+    border: 5px solid #219bb0;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+   }
+   
+   .shadow {
+    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+                0 0  0 2px rgb(190, 190, 190),
+                0.3em 0.3em 1em rgba(0,0,0,0.3);
+   }
+   body{
+    background-color: #91c2e1;
+   }
+   .card1 {
+    width: 15   00px;
+    height: 200px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+   }
+   .ideas h3{
+    margin-left: 4%;
+    text-align: justify;
+    font-size: 20px;
+    font-family:monospace;
+    margin-right: 2%;
+    padding: 2%;
+   }
+   .card1 {
+    width: 85%;
+    height: 180px;
+    margin-left: 7%;
+    border-radius: 50px;
+    background:  rgb(255, 255, 255);
+    box-shadow: 20px 20px 60px #bebebe,
+                  -20px -20px 60px #ffffff;
+   }
+.btn {
+  background: #0097fb;
+  border: 1px solid #189cee;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.btn:hover,
+.btn-24:active {
+color: #1d939b;
+  background-color: initial;
+  background-position: 0 0;
+  
+}
+
+.btn-24:active {
+  opacity: .5;
+}
+.footer-distributed {
+  background-color: #000000;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: normal 16px sans-serif;
+  padding: 45px 50px;
+}
+.footer-distributed .footer-left p {
+  color: #8f9296;
+  font-size: 14px;
+  margin: 0;
+}
+.footer-distributed p.footer-links {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0 0 10px;
+  padding: 0;
+  transition: ease .25s;
+}
+
+.footer-distributed p.footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+  transition: ease .25s;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "·";
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+.footer-distributed .footer-right {
+  float: right;
+  margin-top: 6px;
+  max-width: 180px;
+}
