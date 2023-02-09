@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap">
+  <title>Happy Birthday card</title>
+</head>
+<style>
+    
+
+
+body { 
+  height: 100%;
+background: linear-gradient(to right, #000f92, #8f9700); 
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+.balloon {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: relative;
+  animation: balloon-movement 8s ease-in-out infinite;
+}
+
+@keyframes balloon-movement {
+  0% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 200px;
+  }
+  100% {
+    bottom: 0;
+  }
+  
+}
+.birthday{
+  width: 10%;
+  height: 85%;
+}
+.balloon #img1{
+  margin-left: 1360%;
+  margin-bottom: 0%;
+}
+.balloon #img2{
+  margin-left: 1360%;
+}
+.card {
+ width: 790px;
+ height: 454px;
+ margin-left: 25%;
+ background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+ border-radius: 20px;
+ transition: all .3s;
+}
+
+.card2 {
+ width: 790px;
+ height: 454px;
+ background-color: rgb(210, 19, 118);
+ border-radius:20px;
+ transition: all .2s;
+}
+
+.card2:hover {
+ transform: scale(0.98);
+ border-radius: 20px;
+}
+
+.card:hover {
+ box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+}
+.cont{
+  display: flex;
+}
+.wish{
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 8%;
+  font-family:initial;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+}
+p {
+  animation: text-animation 3s ease-in-out infinite;
+}
+
+@keyframes text-animation {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(50px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+/* #ik{
+  display: flex;
+justify-content: center;
+} */
+</style>
+<body>
+  <img src="https://pngimg.com/d/confetti_PNG87080.png" alt="" width="99%" height="800px" id="ik" style="position: absolute;" class="center">
+   <h1 style="text-align:center ;">Birthday Invitation</h1>
+
+    <div class="balloon">
+      <img src="ballon.png" alt="" width="120px" height="200px">
+    </div>
+    <div class="card">
+      <div class="card2">
+        <div class="cont">
+        <div >
+        <img src="https://i.pinimg.com/originals/87/7e/c2/877ec22ddceae822b7cec0fcab47d089.png" alt="" width="100%" height="30%" style= "margin-left:10%; margin-top: 20%;">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7ga-Ia3mXDI8pXXDAZOTGjH3JL1kwv8zyAw&usqp=CAU" alt="" style="margin-left: 15%;">
+      </div>
+      <div class="wish">
+        <p>Make the next birthday you celebrate a special one with personalized birthday cards paired with a hand-picked happy birthday quote or wish that will surely make that special someone’s day a great day.<br><strong>-By your lovely friend</strong></p>
+      </div>
+    </div>
+      </div>
+    </div>
+  </div>
+    <div class="balloon">
+      <img src="ballon.png" alt="" width="120px" height="200px" id="img1">
+    </div>
+    
+</body>
+</html>
