@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+            form {
+    position: absolute;
+    top: 20px;
+    width: 30%;
+    margin-top: 10%;
+    margin-left: 35%;
+    border-radius: 30px;
+    background: #fff;
+    }
+    .form-left-decoration {
+    bottom: 60px;
+    left: -30px;
+    }
+    .form-inner {
+    padding: 40px;
+    }
+    
+ 
+   .div_1{
+     display: block;
+    width: 90%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 20px ;
+    background: rgb(145, 196, 216);
+    margin-left: 13px;
+
+   }
+
+    .form-inner textarea {
+    resize: none;
+    }
+    button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: none;
+    border-bottom: 4px solid#017d96;
+    background: #017d96; 
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    }
+    .u1{
+        height:40px;
+        width:410px;
+        border-radius:20px;
+       background: #ffffff;
+    }
+    .u2{
+        height: 200px;
+        width: 440px;
+        border-radius: 20px;
+        background: #ffffff;
+
+    }
+    video{
+                width:400px;
+                height:400px;
+                border-radius: 20px;
+            }
+            audio{
+                margin-left: 0px;
+            }
+            body{
+                background-color: wheat;
+            }
+    </style>
+</head>
+<body>
+    <form class="main_form">
+        <div class="form-inner">
+
+     
+          <div class="div_1">
+            <h1 style="text-align: center; ">Feedback</h1>
+          <input type="text" placeholder="   Username" class="u1"><br>
+          <br>
+          <input type="email" placeholder="   Email" class="u1"><br>
+          <br>
+          <input type="text" placeholder="   Phone no" class="u1"><br>
+          <br>
+          <h2>would you like my service?</h2>
+            <input type="radio"><span>Yes</span>
+            <input type="radio"><span>No</span>
+
+            <br><br>
+            <h2>what product you bought??</h2>
+             <input list="browsers" name="browser" id="browser" class="u1">
+
+            <datalist id="browsers">
+               <option value="sathya">
+               <option value="void">
+               <option value="preethi">
+               <option value="butterfly">
+               <option value="vasanth&co">
+               <option value="LG grinder">
+               <option value="Bajaj">
+               <option value="Usha">
+               <option value="Bosh">
+              
+            </datalist>
+            <br>
+               <h2>product quality?</h2>
+            <input type="radio"><span>Good</span>
+            <input type="radio"><span>Avg</span>
+             <input type="radio"><span>Worst</span>
+     <br><br>
+          <textarea placeholder="   Message/complaint" rows="5" class="u2"></textarea>
+          <br>
+          <h2>video reference</h2>
+          <video src="video.mp4" controls="controls"></video>
+          <h2>audio reference</h2>
+           <audio src="audio.mp3" controls="controls"></audio>
+            <button>Submit</button>
+          </div>
+       
+        </div>
+      </form>
+</body>
+</html>
